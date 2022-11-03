@@ -1,3 +1,6 @@
+// Author: Blake Freer
+// Date Created: November 3, 2022
+
 char * getPermutation(int n, int k){
     int * fact = malloc(sizeof(int) * (n+1));
     bool * avail = malloc(sizeof(bool) * n);
